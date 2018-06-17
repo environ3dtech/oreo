@@ -1,0 +1,47 @@
+<div class="fi-t fi-i--4 home" data-team-id="43948">
+  <div class="fi-t__i ">
+      <img src="https://api.fifa.com/api/v1/picture/flags-fwc2018-4/ger" alt="GER" title="GER" class="fi-GER fi-flag--4">
+
+  </div>
+  <table style="width:50%">
+<tr>
+  <th>Germany</th>
+  <th>Vs.</th>
+  <th>Mexico</th>
+</tr>
+
+</table>
+
+<img src="https://www.kodivpn.co/wp-content/uploads/2018/06/Germany-vs.-Mexico.jpg" >
+
+
+<head>
+<script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+</head>
+
+<body onload="startTime()">
+
+<div id="txt"></div>
+
+</body>
+
+<iframe width="350" height="180" src="https://w2.countingdownto.com/2199317" frameborder="0"></iframe>
+
+
+  </div>
